@@ -341,21 +341,25 @@ a:hover {
         font-size: 0.9rem;
     }
 }
-
+#demon{
+  position: relative;
+}
 #demos .unslider-arrow {
-    display: block;
-    width: 32px;
-    height: 32px;
-    top: 50%;
-    right: -50px;
-    left: auto;
-    margin-top: -16px;
+    width: 20px;
+    height: 20px;
     overflow: hidden;
-    background: rgba(0,0,0,.2) no-repeat 50% 50%;
+    background: rgba(0, 0, 0, .2) no-repeat 50% 50%;
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lE…e1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
     background-size: 7px 11px;
     border-radius: 32px;
     text-indent: -999em;
     opacity: .6;
     transition: opacity .2s;
+}
+.unslider-nav ol li.unslider-active {
+    border-color: #159957;
+}
+
+.unslider-nav ol li {
+    border: 6px solid #AAA;
 }
